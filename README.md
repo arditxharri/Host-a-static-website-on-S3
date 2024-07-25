@@ -56,6 +56,3 @@ Upload your static website content (HTML, CSS, JS files) to the S3 bucket. Ensur
 - [Terraform Documentation](https://www.terraform.io/docs/index.html)
 - [AWS S3 Documentation](https://docs.aws.amazon.com/s3/index.html)
 
-### License
-
-This project is licensed under the [MIT License](LICENSE).
