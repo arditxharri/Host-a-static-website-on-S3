@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potatoes for Dory</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #ff6347;
+            animation: colorChange 2s infinite, float 3s ease-in-out infinite;
+        }
+
+        @keyframes colorChange {
+            0% { color: #ff6347; }
+            25% { color: #ffa500; }
+            50% { color: #ffd700; }
+            75% { color: #adff2f; }
+            100% { color: #ff6347; }
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Potatoes for Dorila <3 </h1>
+</body>
+</html>
